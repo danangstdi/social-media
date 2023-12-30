@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss build ./public/styles/styles.css -o ./public/styles/output.css",
+    "watch": "postcss ./public/styles/styles.css -o ./public/styles/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
